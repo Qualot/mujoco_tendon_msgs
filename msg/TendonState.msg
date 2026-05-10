@@ -10,6 +10,9 @@ float32[] tension
 float32[] muscle_jacobian
 float32[] muscle_jacobian_raw
 
+float32[] joint_force_world
+float32[] joint_force_local
+
 # joint info
 string[] joint_names
 float64[] position
